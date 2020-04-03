@@ -1,0 +1,2 @@
+# proje
+ first commit
