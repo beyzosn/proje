@@ -1,0 +1,92 @@
+<html>
+    <head>
+     <title>
+        Karabük
+     </title>
+<meta charset="UTF-8">
+    </head>
+    <link rel="stylesheet" type="text/css" href="sehrimstyle.css">
+<body>
+<h1>Karabük</h1>
+<h2 id="yukari">LİNK VERME İÇİN KULLANILAN NİTELİKLER</h2>
+<p>     Batı Karadeniz bölgesinde bulunan Karabük, tarihi Safranbolu evleri ve antik kentleri ile bir turizm cennetidir. Karabük, Türk Ulusunun tarihinde, sanayileşmeyi simgeleyen kent olmanın haklı gururunu taşımaktadır. Cumhuriyetin ilk yıllarında, Ulu Önder Atatürk'ün sanayileşme yolunda aldığı devrim kararı üzerine, Türkiye'nin ilk entegre demir - çelik tesisinin yeri  için, maden kömürü havzasına ve sahile yakınlığı, demiryolu güzergahında bulunuşu ve stratejik uygunluğu nedeni ile Karabük seçilmiştir.
+
+    Karabük, bir kent olarak varlığını Cumhuriyete borçludur. 1927 tarihinde Zonguldak'a bağlı bir ilçe durumuna getirilen Safranbolu'nun bir köyünün 13 hanelik bir mahallesi olan Karabük 1 Haziran 1934 tarihinde Ankara - Zonguldak Demir yolunun açılmasıyla bu günkü istasyonun olduğu yere bir ad verilmesi gerektiğinde bu 13 hanelik köyün adının verilmesi uygun görülmüş böylece Karabük adı resmen ilk kez T.C. Devlet Demir Yolları haritasında geçmeye başlamış ve kullanılmıştır. 1937 yılına kadar 13 hanelik bir mahalle iken 3 Nisan 1937 yılında demir - çelik fabrikasının temelinin atılmasıyla Karabük Türkiye'de ve Dünyada adını kısa zamanda duyurmuştur.
+    
+    
+    Kısmen Karadeniz ikliminin özellikleri görülen Karabük, kıyıdan içeride kaldığı için, Karadeniz'in nemli havasından yeterince yararlanamamakta, karasal iklimin özellikleri daha ağır basmaktadır. Ancak, İç Anadolu'da olduğu gibi şiddetli kış soğukları ile kurak yaz sıcakları görülmez. En çok yağış ilkbahar ve kış aylarındadır.
+    
+    </p>
+
+    <div class="slideshow-container">
+        <div class="mySlides fade">
+          <div class="numbertext"></div>
+          <a target="_blank" href="#yukari"></a> <img src="slider1.jpg" style="width:100%">
+          <div class="text">Safranbolu Evleri</div>
+        </div>
+        <div class="mySlides fade">
+            <div class="numbertext"></div>
+            <img src="slider2.jpg" style="width:100%">
+            <div class="text">Bulak Mağarası</div>
+          </div>
+          <div class="mySlides fade">
+            <div class="numbertext"></div>
+            <img src="slider3.jpg" style="width:100%">
+            <div class="text">Tokatlı Kanyonu</div>
+          </div>
+          <div class="mySlides fade">
+            <div class="numbertext"></div>
+            <img src="slider4.jpg" style="width:100%">
+            <div class="text">Cinci Han Kervansarayı</div>
+          </div>
+          <div class="mySlides fade">
+            <div class="numbertext"></div>
+            <img src="slider5.jpg" style="width:100%">
+            <div class="text">Hadrianapolis Antik Kenti</div>
+          </div>
+        <div class="mySlides fade">
+          <div class="numbertext"></div>
+          <img src="slider6.png" style="width:100%">
+          <div class="text">Şeker Kanyonu</div>
+        </div>
+        <div class="mySlides fade">
+          <div class="numbertext"></div>
+          <img src="slider7.jpg" style="width:100%">
+          <div class="text">Eğriova Göleti</div>
+        </div>
+        </div>
+        <br>
+        <div style="text-align:center">
+          <span class="dot"></span> 
+          <span class="dot"></span> 
+          <span class="dot"></span> 
+          <span class="dot"></span> 
+          <span class="dot"></span> 
+          <span class="dot"></span> 
+          <span class="dot"></span> 
+
+        </div>
+        <script>
+            var slideIndex = 0;
+            showSlides();
+            function showSlides() {
+                var i;
+                var slides = document.getElementsByClassName("mySlides");
+                var dots = document.getElementsByClassName("dot");
+                for (i = 0; i < slides.length; i++) {
+                   slides[i].style.display = "none";  
+                }
+                slideIndex++;
+                if (slideIndex> slides.length) {slideIndex = 1}    
+                for (i = 0; i < dots.length; i++) {
+                    dots[i].className = dots[i].className.replace(" active", "");
+                }
+                slides[slideIndex-1].style.display = "block";  
+                dots[slideIndex-1].className += " active";
+                setTimeout(showSlides, 3000); // Bu alandan resimlerin geçiş süresini değiştirebilirsiniz.
+            }
+            </script>
+
+</body>
+</html>
+
