@@ -1,0 +1,80 @@
+*{
+  font-family:"Trebuchet MS", Helvetica, sans-serif;
+}
+body{
+    font-family: sans-serif;
+    background-color:black;
+
+}
+h1{
+    font-family:sans-serif;
+    font-size:40;
+    text-align: center;
+    padding-top: 10px;
+    color:whitesmoke;
+}
+p{
+    padding-top: 15px;
+    padding-right: 900px;
+    padding-bottom: 200px;
+    padding-left: 10px;
+    font-family:sans-serif;
+    font-size: 15;;
+    text-align: left;
+    color:whitesmoke;
+}
+* {box-sizing:border-box}
+body {font-family: Verdana,sans-serif;}
+.mySlides {display:none}
+/* Slideshow container */
+.slideshow-container {
+  height: 400px;
+  width: 700px;
+  position: relative;
+  margin: auto;
+  overflow: hidden;
+}
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 13px;
+  width: 13px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+.active {
+  background-color: #717171;
+}
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}

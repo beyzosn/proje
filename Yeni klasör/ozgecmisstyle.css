@@ -1,0 +1,27 @@
+table{
+    font-family:"Trebuchet MS", Helvetica, sans-serif;
+    background-color: black;
+    color: whitesmoke;
+	text-align: center;
+	font-family: sans-serif;
+    font-size: 25;
+    width: 70%;
+    height:40%;
+    border: 1px solid black;
+    border-radius:20px;
+    position: absolute;
+    left:230px;
+    top:150px;
+
+}
+body{
+    margin:0;
+    padding:0;
+    background: url(safranboluu.jpg);
+    background-size:cover;
+    background-position: center;
+    font-family: sans-serif;
+}
+td{
+font-weight: bold;
+}
