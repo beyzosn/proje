@@ -35,6 +35,47 @@
                 </nav>
              </div>
         </div>
+
+        <div class="section">
+          <div class="container">
+              <div class="row">
+                <div id="baslik" class="col-md-12 text-center">
+                  <h2 class="section-title">İLETİŞİM FORMU</h2>
+                    <p class="section-description">____ ____ ____ ____ ____ ____ ____</p>
+                </div>
+                <div class="col-md-8 col-md-offset-2">
+                  <form id="contact" method="POST" class="form" role="form">
+                    <div class="row">
+                      <div class="col-md-6 form-group">
+                        <input class="form-control" id="email" name="email" placeholder="ornek@gmail.com" type="email" required>
+                      </div><br>
+                      <div class="col-md-6 form-group">
+                        <input class="form-control" id="telefon" name="telefon" placeholder="05XX XXX XX XX" type="text" required>
+                      </div>
+                      <div class="col-md-12 form-group">
+                        <textarea class="form-control" id="message" name="message" placeholder="Açıklama yazınız." rows="3" ></textarea>
+                        <input type="radio"name="cinsiyet" id="cinsiyet"  value="kadın">Kız<br>
+                        <input type="radio" name="cinsiyet" id="cinsiyet" value="erkek">Erkek
+                        <input type="number" name="yas" id="yas" min="18" max="88">YAŞ
+                        <br>
+                        <div class="col-md-12 form-group">
+                          <button class="btn btn-primary" type="submit">Gönder</button> 
+                        </div>
+                      </div>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+
+                
+
+
+
+
+
+           
     </section>
     <script src="js/jquery-3.5.1.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
