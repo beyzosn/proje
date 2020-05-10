@@ -2,7 +2,6 @@ html,
 body,
 #cover{
     height: 100%;
-
 }
 #cover{
     background: url('../images/building.jpg') no-repeat center center fixed;
@@ -10,6 +9,8 @@ body,
     -webkit-background-size:cover;
     -moz-background-size: cover;
     -o-background-size: cover;
+    overflow-y: scroll;
+    overflow-x:hidden;
 }
 .sticky-top{
     max-width: 1140px;
@@ -37,7 +38,6 @@ a.nav-link:hover{
     font-family:'Montserrat',sans-serif;
     font-size: 16px;
     color:black;
-
 }
 #foto{
     position:relative;
@@ -93,7 +93,7 @@ h1{
     margin-bottom:20px;
 
 }
-.loginbox input[type="text"],input[type="password"]{
+.loginbox input[type="email"],input[type="password"]{
     border:none;
     border-bottom:1px solid white;
     background:transparent;
@@ -119,10 +119,14 @@ h1{
 }
 
 #introduction{
-    margin:50px auto;
+    margin: auto;
     font-family:'Montserrat',sans-serif;
     font-size: 16px;
     color:black;
+    position: relative;
+}
+#introduction.h5{
+    font-style: bold;
 }
 
 
@@ -132,11 +136,23 @@ h1{
     border:none;
     border-radius: 20px;
     position: relative;
-    bottom:20px;
+    top:30px;
+    bottom:10px;
     margin: 0 auto;
     overflow: hidden;
 }
 
+#mirasımız{
+    height:400px;
+    width: 700px;
+    border:none;
+    border-radius: 20px;
+    position: relative;
+    top:110px;
+    bottom:20px;
+    margin: 0 auto;
+    overflow: hidden;
+}
 .form-control{
 border:2px solid #cbd0d3;
 border-radius:20px;
@@ -147,8 +163,21 @@ height:45px;
 
 .btn-primary{
     background-color: #1abc9c;
+   
 }
-
+#male{
+    position: relative;
+    left:330px;
+}
+#yan{
+    position: relative;
+    top:-54px;
+    left:120px;
+}
+#yaş{
+    position: relative;
+    left:-255px;
+}
 .btn-primary-hover{
 background-color: #16a085;
 }
@@ -156,7 +185,7 @@ background-color: #16a085;
 h2.section-title{
     font-weight: bold;
     text-transform: uppercase;
-    font-size: 24px;
+    
     letter-spacing:5px;
     margin-bottom:80px;
 }
@@ -173,10 +202,69 @@ margin-bottom: 80px;
 
 #baslik{
     position: relative;
-    top:110px;
+    top:80px;
+    font-size: 20px;
 }
 #contact{
     position: relative;
+    top:90px;
+    left: 120px;
+}
+
+#miras{
+    position: relative;
+    top:100px;
+
+}
+#icon{
+  position: relative;
+  top:-250px;
+  transition: 350ms;
+  }
+  .medya{
+    border-radius: 50%;
+  }
+   .sosyal-icon:hover{
+   transition: 350ms;
+  transform: rotate(720deg);
+  }
+ 
+  .sosyal-icon{
+display: inline-block;
+transition: 350ms;
+}
+
+#üni{
+    font-family:'Montserrat',sans-serif;
+    font-size: 30px;
+    color:black;
+    font-weight: bold;
+    position: relative;
+    top:200px;
+    left:670px;
+}
+#bölüm{
+    font-family:'Droid Serif',serif;
+    font-style: italic;
+    font-size: 23px;
+    color:black;
+    font-weight: bolder;
+    position: relative;
+    top:210px;
+    left:700px;
+}
+#fotograf{
+    width:250px;
+    height:250px;
+    border:none;
+    border-radius: 50%;
+    position: relative;
     top:50px;
-    left:180px;
+    left:200px;
+}
+#anasayfa{
+  position: relative;
+  top:-10px;
+  left:750px;
+  transition: 350ms;
 }
